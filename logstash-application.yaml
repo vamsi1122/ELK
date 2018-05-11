@@ -14,7 +14,7 @@ data:
     }
     output {
       elasticsearch {
-        hosts => "a2bc3518353a311e8bed40622bb7de2b-865301503.us-west-2.elb.amazonaws.com:9200"
+        hosts => "elasticsearchurl:9200"
         index => "logstash-%{+YYYY.MM.dd}"
         sniffing => false
       }
