@@ -1,0 +1,104 @@
+
+ 1077  kubectl get pods
+ 1078  kubectl get pods -w
+ 1079  kubectl get pods
+ 1080  kubectl describe pods kibana-wldf5
+ 1081  kubectl docker images
+ 1082  docker images
+ 1083  kubectl get namespaces --show-labels
+ 1084  kubectl describe pods kibana-wldf5
+ 1085  kubectl get pods
+ 1086  ]kubectl get svc -0 wide
+ 1087  ]kubectl get svc -o wide
+ 1088  kubectl
+ 1089  kubectl get svc -o wide
+ 1090  kubectl delete svc kibana
+ 1091  kubectl get ppods
+ 1092  kubectl get pods
+ 1093  kubectl describe pods kibana-wldf53
+ 1094  kubectl describe pods kibana-wldf5
+ 1095  kubectl logs kibana-wldf5 --previous
+ 1096  kubectl describe pods kibana-wldf5
+ 1097  kubectl logs kibana-wldf5 --previous
+ 1098  kubectl get pods
+ 1099  kubectl cluster-info
+ 1100  kubectl get nodes
+ 1101  kubectl get pods
+ 1102  kubectl delete pods kibana-wldf5 -force -now
+ 1103  kubectl delete pods kibana-wldf5 --force --now
+ 1104  kubectl get pods
+ 1105  kubectl get svc -o wide
+ 1106  kubectl get nodeos
+ 1107  kubectl get nodes
+ 1108  kubectl get svc -o wide
+ 1109  kubectl scale --replicas=0 kibana-fd66s
+ 1110  kubectl scale --replicas=0 kibana
+ 1111  kubectl scale --replicas=0 deployment/kibana
+ 1112  kubectl get pods
+ 1113  kubectl scale --replicas=0 pods/kibana
+ 1114  kubectl get rs
+ 1115  kubectl get rs --al-namespaces
+ 1116  kubectl get rs --all-namespaces
+ 1117  kubectl kubectl get pods
+ 1118  kubectl get pods
+ 1119  kubectl get deployments
+ 1120  kubectl get svc -o wide
+ 1121  kubectl scale --replica=0 kibana-fd66s
+ 1122  kubectl scale --replicas=0 kibana-fd66s
+ 1123  kubectl scale --replicas=0 kibana-*
+ 1124  kubectl scale --replicas=0 kibana/kibana-fd66s
+ 1125  kubectl describe pod kibana-fd66s
+ 1126  kubectl get namespaces
+ 1127  kubectl get statefulsets
+ 1128  ls -al
+ 1129  kubectl get pods
+ 1130  kubectl config view
+ 1131  kubectl pod kibana-fd66s config view
+ 1132  kubectl kibana-fd66s config view
+ 1133  kubectl pod kibana-fd66s --config view
+ 1134  kubectl exec -ti kibana-fd66s env
+ 1135* kubectl exec -ti kibana-fd66s ba
+ 1136  kubectl exec kibana-fd66s env
+ 1137  kubectl describe pods kibana-fd66s
+ 1138  kubectl get pods
+ 1139  kubectl describe pods kibana-fd66s
+ 1140  kubectl get pods
+ 1141  kubectl delete pod kibana-fd66s --namespaces=default --force
+ 1142  kuibectl get svc -o wide
+ 1143  kubectl get svc -o wide
+ 1144  docker pull kibana:5.5.1
+ 1145  docker run --name kibana -e ELASTICSEARCH_URL=http://a2bc3518353a311e8bed40622bb7de2b-865301503.us-west-2.elb.amazonaws.com:9200 -p 5601:5601 -d kibana
+ 1146  curl http://localhost:5601
+ 1147  docker ps
+ 1148  docker container commit e0b9b2d18efa kibana:vg
+ 1149  docker images
+ 1150  kubectl run kibanavg --image=kibana:vg --replicas=1 --port=5601
+ 1151* kubectl get deployments
+ 1152  kubectl get pods
+ 1153  kubectl delete deployment kibanavg
+ 1154  kubectl get pods
+ 1155  docker image
+ 1156  docker images
+ 1157  dokcer tag kibana:vg vamsi1122/kibana
+ 1158  docker tag kibana:vg vamsi1122/kibana
+ 1159  docker login
+ 1160  docker push vamsi1122/kibana
+ 1161  kubectl run kibanavg --image=vamsi1122/kibana:latest --replicas=1 --port=5601
+ 1162  kubectl get pods
+ 1163  kubectl expose deployment kibanavg --port=5601 --type=LoadBalancer
+ 1164  kubectl get service -o wide
+ 1165  kubectl get pods
+ 1166  kubectl get rc
+ 1167  kubectl delete rc kibana
+ 1168  kubectl delete rc logstash
+ 1169  kubectl get rc
+ 1170  kubectl get pods
+ 1171  kubectl get service -o wide
+ 1172  curl http://aa6aa8b40548411e8bed40622bb7de2b-1659861835.us-west-2.elb.amazonaws.com:5601
+ 1173  kubectl get nodew
+ 1174  kubectl get nodses
+ 1175  kubectl get nodes
+ 1176  docker pull kibana:5.5.1
+ 1177  docker images
+ 1178  history
+
